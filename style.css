@@ -1,0 +1,124 @@
+/* Sets up all content boxes on webpages as border box */
+.border-box {
+    box-sizing: border-box;
+    width: 400px;
+}
+
+/* Sets the H1 element (my name) to white, centered on page and sized 48 pixels with the Georgia font style */
+h1 {
+    color:white;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+}
+
+/* Sets the title for each section to Georgia font style, sized 24 pixels, and centered on page */
+h2 {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+/* Sets the sub title (Web Developer) to white, centered on page, sized 30 pixels, with the Georgia font style */
+h3 {
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+/* Sets all paragraphs on page to be left aligned, using the Georgia font family and sets extra space between lines for readability */
+p {
+    text-align: left;
+    margin-top: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Sets the header container to a dark brown color, and sets the spacing for the content and containter */
+header {
+    background-color: #7D4F50;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+/* Sets the background for the page to a light brown almost tan color. This is to contrast the color of the header and footer sections */
+body {
+    background-color: #f9eae1;
+}
+
+/* Sets the container to a dark brown color, and setst the spacing for the content and container  */
+footer {
+    background-color: #7D4F50;
+    padding: 0%;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    padding: 2%;
+}
+
+/* Set the profile image to be a certain size on screena and centered */
+img {
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    width: 400px;
+}
+
+/* Sets the alignment, spacing, font and position for unordered line items */
+ul {
+    text-align: left;
+    list-style-position: inside;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+/* Sets the alignment, spacing, font and position for ordered line items */
+ol {
+    text-align: left;
+    list-style-position: inside;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+/* Sets all unclicked links to blue */ 
+a:link {
+    color: blue;
+}
+
+/* Sets visited links to purple */
+a:visited {
+    color: purple;
+}
+
+/* Sets clicks to red while cursor is hovering over it */
+a:hover {
+    color: red;
+}
+
+/* Sets links actively being clicked on to green */
+a:active {
+    color: green;
+}
+
+/* Sets up horizontal lines to be the same size as content boxes and centered on page */
+hr {
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Sets all elements with class "container" to a smaller size to match the image, and centered on page under image */
+.container {
+    width: 400px;
+    height: 100%;
+    margin: auto;
+    display: center;
+    align-items: left;
+}
